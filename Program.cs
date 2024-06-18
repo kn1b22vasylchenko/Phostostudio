@@ -95,7 +95,7 @@ class Program
 
         studio1.ChangeSensitivity(1600);
         Console.WriteLine("\nStudio 1 after changing sensitivity:");
-        studio2.DisplayLampInfo();
+        studio1.DisplayLampInfo();
         studio1.DisplayCameraInfo();
     }
 }
